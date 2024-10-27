@@ -1,0 +1,18 @@
+{
+    "require": {
+        "mailerlite/mailerlite-api-v2-php-sdk-fork": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./mailerlite/mailerlite-api-v2-php-sdk-fork"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+        },
+        "platform":{
+            "php": "7.1"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1b33945f3670293d61d4c64db2c83dc",
+    "packages": [
+        {
+            "name": "mailerlite/mailerlite-api-v2-php-sdk-fork",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./mailerlite/mailerlite-api-v2-php-sdk-fork",
+                "reference": "980d448751b111cf89f05c2b4b91d48a98f554b2"
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MailerLiteApi\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "MailerLiteApi\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "MailerLite API v2 PHP SDK",
+            "homepage": "https://github.com/mailerlite/mailerlite-api-v2-php-sdk",
+            "keywords": [
+                "email",
+                "mailerlite",
+                "marketing",
+                "sdk"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mailerlite/mailerlite-api-v2-php-sdk-fork": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.1"
+    },
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "name": "mailerlite/mailerlite-api-v2-php-sdk-fork",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./mailerlite/mailerlite-api-v2-php-sdk-fork",
+                "reference": "980d448751b111cf89f05c2b4b91d48a98f554b2"
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1 || ^8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MailerLiteApi\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "MailerLiteApi\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "MailerLite API v2 PHP SDK",
+            "homepage": "https://github.com/mailerlite/mailerlite-api-v2-php-sdk",
+            "keywords": [
+                "email",
+                "mailerlite",
+                "marketing",
+                "sdk"
+            ],
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../mailerlite/mailerlite-api-v2-php-sdk-fork"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

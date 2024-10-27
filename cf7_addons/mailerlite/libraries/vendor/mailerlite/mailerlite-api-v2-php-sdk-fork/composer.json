@@ -1,0 +1,24 @@
+{
+    "name": "mailerlite/mailerlite-api-v2-php-sdk-fork",
+    "description": "MailerLite API v2 PHP SDK",
+    "homepage": "https://github.com/mailerlite/mailerlite-api-v2-php-sdk",
+    "license": "MIT",
+    "keywords": ["mailerlite", "sdk", "email", "marketing"],
+    "type": "library",
+    "require": {
+        "php" : "^7.1 || ^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "MailerLiteApi\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MailerLiteApi\\Tests\\": "tests/"
+        }
+    }
+}
